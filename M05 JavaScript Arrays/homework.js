@@ -144,9 +144,8 @@ function empiezaConNueve(num) {
    // Esta función recibe por parámetro un número.
    // Debe retornar true si el entero inicia con 9 y false en otro caso.
    // Tu código:
-   var numString = num.toString() 
-   var numArray = numString.split('') 
-   if ( numArray[0] == 9) {
+   var numArray = num.toString().split('') 
+   if (numArray[0] == 9) {
       return true
    } else {
       return false
